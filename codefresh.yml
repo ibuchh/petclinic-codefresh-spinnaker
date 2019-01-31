@@ -5,7 +5,7 @@ steps:
     image: maven:latest
     working_directory: ./
     commands:
-      - mvn package -DskipTests      
+      - mvn package       
   BuildingDockerImage:
     title: Building Docker Image
     type: build
